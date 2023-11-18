@@ -73,3 +73,15 @@ img {
     color: red;
     margin-left: 0.5rem;
 }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+}
+
+footer p {
+    margin: 0;
+}
