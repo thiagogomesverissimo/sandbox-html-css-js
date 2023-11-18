@@ -16,3 +16,60 @@ header nav ul li a {
     color: #ccc;
     font-size: 1.2rem;
 }
+
+header nav ul li a:hover {
+    border-bottom: 1px solid aliceblue;
+}
+
+ul.produtos__lista {
+    list-style-type: none;
+}
+
+.produtos {
+    margin: 2%;
+}
+
+.produtos__lista {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.produtos__lista__item {
+    flex: 0 1 calc(30% - 1rem);
+    max-width: 20rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0, 0.2);
+
+}
+
+.produtos__lista__item {
+    cursor: pointer;
+    margin: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+.produtos__lista__item__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produtos__lista__conteudo__informacoes {
+    text-align: center;
+}
+
+.produtos__lista__conteudo__informacoes h4 {
+    font-size: 1.5rem;
+}
+
+.produtos__lista__conteudo__informacoes h4 s {
+    font-size: 1rem;
+    color: red;
+    margin-left: 0.5rem;
+}
