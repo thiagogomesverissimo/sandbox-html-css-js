@@ -1,0 +1,66 @@
+[
+    {
+      "img": "https://thiagogomesverissimo.github.io/sandbox-html-css-js/assets/img1.jpg",
+      "nome": "Smartphone XYZ",
+      "descricao": "Celular de última geração",
+      "valorSemDesconto": 1200.00,
+      "valorComDesconto": 999.99,
+      "tipoEntrega": "Frete GRÁTIS"
+    },
+    {
+      "img": "https://thiagogomesverissimo.github.io/sandbox-html-css-js/assets/img2.jpg",
+      "nome": "Notebook ABC",
+      "descricao": "Notebook ultrafino e potente",
+      "valorSemDesconto": 2500.00,
+      "valorComDesconto": 1999.99,
+      "tipoEntrega": "RECEBA HOJE"
+    },
+    {
+      "img": "https://thiagogomesverissimo.github.io/sandbox-html-css-js/assets/img3.jpg",
+      "nome": "PlayStation 5",
+      "descricao": "Console de última geração",
+      "valorSemDesconto": 2300.00,
+      "valorComDesconto": 2099.99,
+      "tipoEntrega": "Frete GRÁTIS"
+    },
+    {
+      "img": "https://thiagogomesverissimo.github.io/sandbox-html-css-js/assets/img4.jpg",
+      "nome": "Kit de Maquiagem Glamour",
+      "descricao": "Produtos de beleza de alta qualidade",
+      "valorSemDesconto": 150.00,
+      "valorComDesconto": 129.99,
+      "tipoEntrega": "RECEBA HOJE"
+    },
+    {
+      "img": "https://thiagogomesverissimo.github.io/sandbox-html-css-js/assets/img5.jpg",
+      "nome": "Secador de Cabelo Profissional 1",
+      "descricao": "Secador potente para resultados incríveis",
+      "valorSemDesconto": 80.00,
+      "valorComDesconto": 69.99,
+      "tipoEntrega": "Frete GRÁTIS"
+    },
+    {
+      "img": "https://thiagogomesverissimo.github.io/sandbox-html-css-js/assets/img6.jpg",
+      "nome": "Secador de Cabelo Profissional 2",
+      "descricao": "Secador potente para resultados incríveis",
+      "valorSemDesconto": 80.00,
+      "valorComDesconto": 69.99,
+      "tipoEntrega": "Frete GRÁTIS"
+    },
+    {
+      "img": "https://thiagogomesverissimo.github.io/sandbox-html-css-js/assets/img7.jpg",
+      "nome": "Secador de Cabelo Profissional 3",
+      "descricao": "Secador potente para resultados incríveis",
+      "valorSemDesconto": 80.00,
+      "valorComDesconto": 69.99,
+      "tipoEntrega": "Frete GRÁTIS"
+    },
+    {
+      "img": "https://thiagogomesverissimo.github.io/sandbox-html-css-js/assets/img8.jpg",
+      "nome": "Perfume Elegance",
+      "descricao": "Fragrância sofisticada e duradoura",
+      "valorSemDesconto": 120.00,
+      "valorComDesconto": 99.99,
+      "tipoEntrega": "RECEBA HOJE"
+    }
+]
