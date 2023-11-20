@@ -21,7 +21,7 @@ header nav ul li a:hover {
     border-bottom: 1px solid aliceblue;
 }
 
-ul.produtos__lista {
+ul#produtos__lista {
     list-style-type: none;
 }
 
