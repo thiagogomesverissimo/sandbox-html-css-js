@@ -29,7 +29,7 @@ ul.produtos__lista {
     margin: 2%;
 }
 
-.produtos__lista {
+#produtos__lista {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
