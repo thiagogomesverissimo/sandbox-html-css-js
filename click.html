@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Super Contador</h1>
+
+    <h3>0</h3>
+
+    <button>Clique aqui</button>
+    <script>
+        let button = document.querySelector('button');
+        button.addEventListener('click', somaUmTrocaCor);
+
+        function somaUmTrocaCor() {
+            // Soma 1
+            let h3 = document.querySelector('h3');
+            n = parseInt(h3.textContent);
+            h3.textContent = n+1;
+
+            // Troca de cor
+            let r = Math.floor(Math.random() * 256);
+            let g = Math.floor(Math.random() * 256);
+            let b = Math.floor(Math.random() * 256);
+            h3.style.color = `rgb(${r},${g},${b})`;
+        }
+
+    </script>
+</body>
+</html>
