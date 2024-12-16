@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Display Eaxample One</title>
+</head>
+<body>
+    span é do tipo inline e não aceita height nem width como configuração no css:<br><br>
+    <span>Span A</span>
+    <span>Span B</span>
+    <span>Span C</span>
+
+    <br><br><hr><br><br>
+    div é do tipo block e ocupa a linha inteira::<br><br>
+
+    <div>Div A</div>  
+    <div>Div B</div>  
+    <div>Div C</div>
+
+    <br><br><hr><br><br>
+    div é do tipo block e aceita height e width, porém mesmo alterando a largura, ele continua ocupando a linha inteira:<br><br>
+
+    <div class="p20">Div A com 20%</div>  
+    <div class="p20">Div B com 20%</div>  
+    <div class="p20">Div C com 20%</div>
+
+    <br><br><hr><br><br>
+    Alterando div para inline-block com width de 20%<br><br>
+
+    <div class="inlinep20">Div inline-block A com 20%</div>  
+    <div class="inlinep20">Div inline-block B com 20%</div>  
+    <div class="inlinep20">Div inline-block C com 20%</div>
+
+    <br><br><hr><br><br>
+    span com float left sobrepõe a div posterior:<br><br>
+
+    <div>Uma div qualquer ANTES do spans</div>  
+    <span class="floatleft">Span A</span>
+    <span class="floatleft">Span B</span>
+    <span class="floatleft">Span C</span>
+    <div>Uma div qualquer DEPOIS do spans</div>  
+
+    <br><br><hr><br><br>
+    span com float right também sobrepõe a div posterior:<br><br>
+
+    <div>Uma div qualquer ANTES do spans</div>  
+    <span class="floatright">Span A</span>
+    <span class="floatright">Span B</span>
+    <span class="floatright">Span C</span>
+    <div>Uma div qualquer DEPOIS do spans</div>  
+
+    <br><br><hr><br><br>
+    No exemplo anterior, os spans flutuaram em cima da segunda div, vou colocar clear both nela:<br><br>
+
+    <div>Uma div qualquer ANTES do spans</div>  
+    <span class="floatleft">Span A</span>
+    <span class="floatleft">Span B</span>
+    <span class="floatleft">Span C</span>
+    <div style="clear:both;">Uma div qualquer DEPOIS do spans com clear both</div>  
+
+    <br><br><hr><br><br>
+    div com display table<br><br>
+
+    <div style="display: table;">
+        <div style="display: table-cell;">Div A com table-cell</div>  
+        <div style="display: table-cell;">Div B com table-cell</div>  
+        <div style="display: table-cell;">Div C com table-cell</div>
+    </div>
+
+</body>
+</html>

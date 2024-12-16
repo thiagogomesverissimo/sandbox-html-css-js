@@ -1,0 +1,43 @@
+span{
+    background:#00ff00;
+    border: 1px black dashed;
+}
+   
+div{
+    height:100px;
+    background:#00ffff;
+    border: 1px black dashed;
+}
+
+p{
+    height:100px;
+    background-color: #ff00ff;
+    border: 1px black dashed;
+}
+
+div.p20 {
+    height:100px;
+    width: 20%;
+    background:#38353e;
+    border: 1px black dashed;
+}
+
+div.inlinep20 {
+    display: inline-block;
+    height:100px;
+    width: 20%;
+    background:#13e06f;
+    border: 1px black dashed; 
+}
+
+span.floatleft {
+    float: left;
+    background:#e48435;
+    border: 1px black dashed; 
+}
+
+span.floatright {
+    float: right;
+    background:#e48435;
+    border: 1px black dashed; 
+}
